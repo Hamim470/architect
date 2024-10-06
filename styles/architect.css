@@ -1,0 +1,15 @@
+/* Work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+
+
+.logo{
+    font-family: "Lobster", sans-serif;
+    font-weight:900;
+    font-size:2em;
+    color:rgb(50, 7, 7);
+}

@@ -1,15 +1,77 @@
 /* Work sans font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+/* shared styles */
 *{
     font-family: "Work Sans", sans-serif;
+    margin:0;
+}
+body{
+    color:white;
+    background-color:black;
+}
+.btn-primary{
+    
 }
 
 
 
+
+
+
+
+
+
+/* header styles starts */
+/* navbar styles starts */
 .logo{
     font-family: "Lobster", sans-serif;
     font-weight:900;
     font-size:2em;
-    color:rgb(50, 7, 7);
+    color:rgb(198, 240, 255);
 }
+.nav-title{
+    font-size: 3rem;
+}
+header{
+    background-color:rgb(1, 20, 20);
+    padding:2% 8%;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    display:flex;
+    padding-top:44.5px;
+}
+nav li{
+    list-style: none;
+    margin-right:5em;
+    font-weight:600;
+    font-size: 1.17em;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(198, 240, 255);
+}
+/* navbar styles ends */
+
+
+.banner-content{
+    max-width:800px;
+    text-align:center;
+    margin:0 auto;
+}
+.banner-title{
+    font-size:4rem;
+    font-weight:700;
+}
+.banner-description{
+    color:rgb(198, 240, 255);
+}
+/* header styles ends  */
+
+

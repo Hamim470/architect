@@ -35,6 +35,8 @@ body{
 
 
 
+
+
 /* header styles starts */
 /* navbar styles starts */
 .logo{
@@ -144,6 +146,53 @@ padding:5%;
 
 
 
+/* facts section starts */
+.facts-card-container{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:70px;
+}
+.facts-card-container .card{
+    border-radius:8px;
+    border:1px solid rgb(198, 240, 255);
+    text-align:center; 
+    padding:40px 50px;
+    margin-top: 40px;
+    
+}
+.facts-card-container .card-stats{
+    font-size:2.8rem;
+    color:#424242;
+}
+.facts-card-container .card-title{
+    font-weight:600;
+    font-size:1.25rem;
+}
+.facts .paragraph{
+    width:50%;
+    margin-top:30px;
+}
+/* facts section ends */
+
+/* sponsors styles starts */
+.sponsors{
+    text-align:center;
+}
+.sponsors-img-container{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(198, 240, 255);
+    border-radius:9px;
+    padding:20px;
+    align-items:center;
+    
+}
+.sponsors-img-container img{
+    border:7px solid rgb(1, 20, 20);
+    padding:20px ;
+    border-radius:6px;
+}
+/* sponsors styles ends */
 
 
 /* main styles ends */
@@ -168,8 +217,11 @@ padding:5%;
         font-size:2.5em;
     }
     nav,
-    .teams-container{
+    .teams-container,
+    .facts-card-container,
+    .sponsors-img-container{
         flex-direction: column;
+        
     }
     nav ul{
         gap :10px;
@@ -178,24 +230,32 @@ padding:5%;
         padding: 0;
         padding:30px;
     }
-
-
-    .teams-container{
-        
-    }
     .teams-img-container{
         grid-template-columns:1fr;
         width:100%;
         order:2;
-    }
-    .teams-img-container img{
-        
     }
     .teams-content{
         width:100%;
         margin-bottom:10px;
         order:1;
     }
+    .facts-card-container{
+        gap:5px;
+    }
+    .facts .paragraph{
+        width:100%;
+        text-align:justify;
+    }
+    .sponsors-img-container img{
+        margin-bottom:15px;
+        border:3px solid rgb(1, 20, 20);
+        padding:30px 100%;
+    }
+    .sponsors-img-container{
+        padding-bottom:0;
+    }
+
 }
 
 /* tablet or medium devices */
